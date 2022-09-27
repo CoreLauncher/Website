@@ -1,0 +1,27 @@
+.center {
+    text-align: center;
+}
+
+#hello {
+    font-size: 40px;
+}
+#hello1 {
+    font-size: 30px;
+    line-height: 0.1;
+    
+}
+#download{
+    background-color: #004f69; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-weight: bold;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
