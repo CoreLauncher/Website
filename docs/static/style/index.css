@@ -1,0 +1,14 @@
+@import url(/static/style/DiscordColors.css);
+@import url(/static/style/Colors.css);
+@import url(/static/style/Buttons.css);
+@import url(../font/index.css);
+
+html, body {
+    background-color: var(--background-primary);
+    margin: 0;
+}
+
+a, p, button {
+    font-family: Inter;
+    color: var(--text-normal);
+}
