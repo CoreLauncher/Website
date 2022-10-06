@@ -1,0 +1,29 @@
+.topblock {
+    height: 200px;
+    background-color: var(--control-brand-foreground);
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+.logo-text {
+    position: relative;
+    display: inline-block;
+    font-size: 400%;
+    margin-top: 3%;
+    width: 50%;
+}
+
+body {
+    text-align: center;
+}
+
+.downloadnotice {
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.button {
+    margin-top: 60px !important
+}

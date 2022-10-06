@@ -1,32 +1,39 @@
-.center {
+.topblock {
+    height: 500px;
+    background-color: var(--control-brand-foreground);
     text-align: center;
+    position: relative;
 }
 
-#hello {
-    font-size: 40px;
-}
-#hello1 {
-    font-size: 30px;
-    line-height: 0.1;
-    
-}
-.download_button{
-    background-color: #004f69; 
-    text-align: center;
-    text-decoration: none;
+.logo-image {
     display: inline-block;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    font-weight: bold;
-    border-radius: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 50%;
 }
-.img-50procent {
-    width:100px; /* you can use % */
-    height: 100px;
-    height: auto;
+
+.logo-text {
+    display: inline-block;
+    font-size: 400%;
+    bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo-slogan {
+    font-size: 150%;
+    display: inline-block;
+    width: 50%;
+}
+
+.downloadbutton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px !important;
+    font-size: 25px !important;
+    font-weight: bold;
+    animation: beat 2s infinite alternate;
+    text-decoration: none;
+}
+
+@keyframes beat{
+	to { transform: scale(1.05); }
 }
